@@ -1,0 +1,135 @@
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+    width: 50vw;
+    background: url('2.jpg') no-repeat;
+    color: hsl(231, 100%, 33%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    border-radius: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.headline {
+    display: flex;
+    text-align: center;
+    background-color: rgb(124, 77, 253);
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1.5rem 0;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+#zip{
+    display:flex;
+    height: 5rem;
+    width: 65%;
+    background :rgb(124, 77, 253);
+    color: #f1ce03;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#feelings{
+    overflow: hidden;
+    resize: vertical;
+    display:flex;
+    height: 5rem;
+    width: 65%;
+    background :rgb(124, 77, 253);
+    color: #f1ce03;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    text-align: center;
+    border-radius: 1rem;
+    line-height: 4rem;
+}
+
+#generate{
+    width: 30%;
+    height: 4rem;
+    background:  rgb(124, 77, 253);
+    color: yellow;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 4rem;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 5px rgba(181, 112, 228, 0.993);
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border: 0;
+}
+
+.title{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#entryHolder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+#date,#temp,#content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: hsl(56, 87%, 43%); 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f1ce03; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f1ce03; 
+    font-family: 'Oswald', sans-serif;
+
+} 
